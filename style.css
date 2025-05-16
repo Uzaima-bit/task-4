@@ -1,0 +1,41 @@
+body{
+border-left: 20px solid grey;
+border-right: 20px solid grey;
+
+
+} 
+ .header{
+    display: flex;
+    justify-content: space-between;
+}
+.hr-1{
+     
+    border: 2px solid grey;
+}
+.text-1{
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: rgb(139, 31, 31);
+    margin-bottom: -6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-2{
+    font-size: 46px;
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -2px;
+    
+}
+.text-3{
+    font-size: 17px;
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -32px;
+    letter-spacing: 2px;
+}
+.div-2{
+    padding: 0px 50px 0px 0px;
+}
+.nav-bar{
+    background-color: rgb(139, 31, 31);
+    height: 80px;
+    margin-top: -4px;
+}
