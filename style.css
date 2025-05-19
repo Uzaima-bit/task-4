@@ -1,6 +1,8 @@
 body{
 border-left: 20px solid grey;
 border-right: 20px solid grey;
+margin: 0px;
+padding: 0px;
 
 
 } 
@@ -15,7 +17,7 @@ border-right: 20px solid grey;
 .text-1{
     font-size: 25px;
     letter-spacing: 1px;
-    color: rgb(139, 31, 31);
+    color: rgb(133, 25, 25);
     margin-bottom: -6px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -36,6 +38,262 @@ border-right: 20px solid grey;
 }
 .nav-bar{
     background-color: rgb(139, 31, 31);
-    height: 80px;
-    margin-top: -4px;
+    height: 62px;
+    margin-top: -20px;
+    
+}
+.home{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+    
+    
+   
+}
+.home-1 a{
+    text-decoration: none;
+    color: white;
+    margin-left: 95px;
+    display: block;
+    padding: 20px 5px 15px 3px ;
+    
+    
+}
+.home-1 a:hover:not(.active){
+    background-color: gray;
+}
+.home-1{
+    float: right;
+    padding: 0px 50px 0px 0px;
+    margin-left: -100px;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main-body{
+    display: flex;
+}
+.img-1{
+    padding: 40px 0px 0px 25px;
+    
+}
+.img-2{
+    padding: 40px 0px 0px 19px;
+}
+.ques{
+    position: relative;
+    /* text-align: center; */
+}
+.q-1{
+    position: absolute;
+  bottom: 354px;
+  background-color: rgb(165, 41, 41);
+  height: 50px;
+  width: 200PX;
+  align-content: center;
+  padding: 0px 0px 0px 10px;
+  color: white;
+}
+.Have{
+position: absolute;
+bottom: 350px;
+left: 225px;
+font-size: 23px;
+font-family:   sans-serif;
+font-weight: bold;
+
+}
+.question{
+    position: absolute;
+    bottom: 348px;
+    left: 310px;
+    font-family: 'Times New Roman', Times, serif ;
+    font-weight: bolder;
+    font-size: 35px;
+    color: rgb(32, 32, 91);
+
+}
+.case{
+
+    position: absolute;
+    bottom: 320px;
+    left: 230px;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: bold
+}
+.statement{
+    position: absolute;
+    bottom: 225px;
+    left: 799px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.no-1{
+    position: absolute;
+    bottom: 228px;
+    left: 1090px;
+    font-size: 17px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.div{
+    position: absolute;
+    bottom: 200px;
+    left: 830px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.divv{
+    position: absolute;
+    bottom: 165px;
+    left: 826px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.divvv{
+    position: absolute;
+    bottom: 132px;
+    left: 820px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.diss{
+    position: absolute;
+    bottom: 32px;
+    left: 820px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+   
+}
+.button-1{
+    position: absolute;
+    bottom: -30px;
+    left: 962px;
+    height: 50px;
+    width: 300px;
+    font-size: 16px;
+    background-color: rgb(187, 14, 14);
+    font-family:  sans-serif;
+    font-weight: 600;
+    color: white;
+    border: 2px solid rgb(187, 14, 14);
+}
+.confidential{
+    position: absolute;
+    bottom: 20px;
+    left: 270px;
+    height: 45px;
+    transform: rotate(18deg);
+    
+}
+.gur{
+    position: absolute;
+    bottom: -160px;
+    left: -29px;
+    font-size: 14px;
+    font-family: cursive;  
+    opacity: 0.7;
+}
+.main-2{
+    padding: 0px 0px 0px 40px;
+    display: flex;
+}
+.h-9{
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.dui{
+    font-size: 23px;
+    padding: 0px 0px 0px 212px;
+    margin-top: -47px;
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.h-8{
+    color: brown;
+    margin-top: -15px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.h-7{
+    font-size: 15px;
+    font-family:  Tahoma, sans-serif;
+    margin-top: -10px;
+    letter-spacing: 1px;
+    opacity: 0.9;
+}
+.h-6{
+    font-size: 15px;
+    font-family:  Tahoma, sans-serif;
+    margin-top: -10px;
+    letter-spacing: 1px;
+    opacity: 0.9;
+}
+.board{
+    padding: 70px 0px 0px 0px;
+    margin-left: -30px;
+}
+.button-0{
+    position: relative;
+    top: 220px;
+    right: 110px;
+    background-color: rgb(187, 14, 14);
+    font-family:  sans-serif;
+    font-weight: 600;
+    color: white;
+    border: 2px solid rgb(187, 14, 14);
+    height: 23px;
+    
+}
+.hr{
+    position: relative;
+    top: 189px;
+    right: 149px;
+    width: 148px;
+    
+}
+.lawblog{
+   margin-left: -65px;
+}
+.law{
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.blog{
+    font-size: 20px;
+    padding: 0px 0px 0px 58px;
+    margin-top: -40px;
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.virginia{
+    font-size: 15px;
+    font-family:  Tahoma, sans-serif;
+    margin-top: -10px;
+    letter-spacing: 1px;
+    opacity: 0.9;
+}
+.button-01{  position: relative;
+    top: 100px;
+    right: 80px;
+    background-color: rgb(187, 14, 14);
+    font-family:  sans-serif;
+    font-weight: 600;
+    color: white;
+    border: 2px solid rgb(187, 14, 14);
+    height: 23px;
+
+}
+.hr00{
+    position: relative;
+    top: 67px;
+    right: 115px;
+    width: 148px;
+}
+.pic-1{
+    
+    margin-left: -95px;
+    padding: 45px 0px 0px 0px;
 }
